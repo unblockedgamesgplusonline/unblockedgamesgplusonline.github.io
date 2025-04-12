@@ -2,14 +2,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const searchText = /Unblocked Games G \+ Online ❤️【Play Free】\|Unblocked Games G \+ Online ❤️【Play Free】/g;
+const searchText = "Unblocked Games G + Online ❤️【Play Free】|Unblocked Games G + Online ❤️【Play Free】";
 const replaceText = "Unblocked Games G + Online ❤️【Play Free】";
 
 function replaceInFile(filePath) {
   try {
     let content = fs.readFileSync(filePath, 'utf8');
     if (content.includes(searchText)) {
-      content = content.replace(new RegExp(searchText, 'g'), replaceText);
+      content = content.split(searchText).join(replaceText);
       fs.writeFileSync(filePath, content, 'utf8');
       console.log(`Updated: ${filePath}`);
     }
