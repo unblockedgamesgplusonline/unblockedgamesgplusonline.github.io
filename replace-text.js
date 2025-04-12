@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const searchText = '<h2 class="my-4 text-center">Description</h2>';
-const replaceText = '';
+const searchText = '<meta name="keywords" content="HTML, CSS, JavaScript">';
+const replaceText = '<meta name="keywords" content="unblocked games g +, unblocked games g plus, g+ unblocked, g+ unblocked games">';
 
 function replaceInFile(filePath) {
   try {
