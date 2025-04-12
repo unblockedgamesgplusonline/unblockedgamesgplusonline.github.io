@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const searchText = "FreezeNova Unblocked Game play at freezenova-unblockedgames.github.io online ⭐ Dive into ⚡ Unblocked the FreezeNova Games ❤️ high quality free unlocked games! No Waiting, Just Gaming!";
-const replaceText = "Instant gaming fun awaits at Unblocked Games G+! No downloads, no signups, just visit GamesGPlus.gitlab.io and start playing immediately. ❤️ high quality free unlocked games!";
+const searchText = "FreezeNova Unblocked Games ❤️ 【Play Online For Free】";
+const replaceText = "Unblocked Games G + Online ❤️【Play Free】";
 
 function replaceInFile(filePath) {
   try {
