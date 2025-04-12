@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const searchText = "freezenova-unblockedgames.github.io";
-const replaceText = "unblockedgamesgplusonline.github.io";
+const searchText = '<h2 class="my-4 text-center">Description</h2>';
+const replaceText = '';
 
 function replaceInFile(filePath) {
   try {
